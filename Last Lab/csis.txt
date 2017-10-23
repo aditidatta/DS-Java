@@ -1,0 +1,222 @@
+Omitted words loaded into a hash table: 
+were
+so
+a
+and
+have
+every
+which
+with
+because
+was
+had
+now
+of
+all
+for
+from
+after
+their
+on
+it
+is
+to
+in
+there
+its
+that
+the
+
+Number of collisions at first try: 4
+
+Total number of Probes needed to handle all the collisions: 5
+
+above            1	   11-9
+add              1	   12-2
+ago              1	   1-6
+altogether       1	   8-7
+any              1	   4-9
+are              3	   3-5  3-10  5-9
+as               1	   7-2
+battlefield      1	   6-2
+be               2	   14-4  15-14
+before           1	   16-7
+birth            1	   20-2
+brave            1	   10-10
+brought          1	   1-9
+but              2	   9-4  13-4
+by               1	   20-12
+can              5	   5-5  9-10  9-15  10-4  13-5
+carried          1	   15-6
+cause            1	   17-8
+civil            1	   4-2
+come             1	   6-8
+conceived        2	   2-5  5-1
+consecrate       1	   10-1
+consecrated      1	   11-6
+continent        1	   2-1
+created          1	   3-6
+dead             3	   11-1  17-1  19-2
+dedicate         2	   6-10  9-12
+dedicated        4	   2-9  5-4  14-5  16-1
+detract          1	   12-4
+devotion         2	   17-5  18-6
+did              1	   13-10
+died             1	   19-6
+do               1	   9-2
+earth            1	   21-10
+endure           1	   5-7
+engaged          1	   3-11
+equal            1	   3-7
+far              2	   11-8  15-3
+fathers          1	   1-8
+final            1	   7-4
+fitting          1	   8-8
+forget           1	   13-7
+forth            1	   1-10
+four             1	   1-1
+freedom          1	   20-4
+full             1	   18-3
+gave             2	   7-11  17-13
+government       1	   20-8
+great            3	   4-1  6-1  16-4
+ground           1	   10-8
+hallow           1	   10-6
+here             9	   5-11  7-10  11-4  13-3  13-11  14-6  15-15  17-12  18-10
+highly           1	   18-11
+honored          1	   16-12
+increased        1	   17-4
+larger           1	   9-7
+last             1	   18-2
+liberty          1	   2-7
+little           1	   12-8
+live             1	   8-4
+lives            1	   7-13
+living           2	   10-12  14-1
+long             2	   5-6  12-11
+measure          1	   18-4
+men              2	   3-4  10-11
+met              1	   5-10
+might            1	   8-3
+nation           5	   2-4  4-7  4-10  8-2  19-11
+never            1	   13-6
+new              2	   2-3  20-1
+nobly            1	   15-5
+nor              1	   12-10
+not              5	   9-11  9-16  10-5  19-4  21-6
+note             1	   12-9
+or               2	   4-8  12-3
+our              2	   1-7  11-10
+people           3	   20-11  21-1  21-4
+perish           1	   21-7
+place            1	   7-6
+poor             1	   11-11
+portion          1	   6-12
+power            1	   11-12
+proper           1	   8-10
+proposition      1	   3-1
+rather           2	   14-2  15-10
+remaining        1	   16-6
+remember         1	   12-12
+resolve          1	   18-12
+resting          1	   7-5
+say              1	   13-2
+score            1	   1-2
+sense            1	   9-8
+seven            1	   1-4
+shall            3	   19-3  19-12  21-5
+should           1	   9-1
+struggled        1	   11-3
+take             1	   17-3
+task             1	   16-5
+testing          1	   4-4
+these            2	   16-11  19-1
+they             3	   13-9  14-12  17-11
+this             5	   1-12  9-3  10-7  19-10  20-7
+those            1	   7-8
+thus             1	   15-2
+unfinished       1	   14-9
+upon             1	   1-11
+us               3	   13-15  15-12  16-8
+vain             1	   19-8
+war              2	   4-3  6-5
+we              10	   3-9  5-8  6-6  8-12  9-9  9-14  10-3  13-1  17-2  18-9
+what             2	   12-13  13-8
+whether          1	   4-5
+who              2	   7-9  11-2
+will             1	   12-7
+work             1	   14-10
+world            1	   12-6
+years            1	   1-5
+
+
+Enter a word to search OR enter '#' to exit: dedicate
+Found:
+dedicate         2	   6-10  9-12
+
+
+Enter a word to search OR enter '#' to exit: devotion
+Found:
+devotion         2	   17-5  18-6
+
+
+Enter a word to search OR enter '#' to exit: gave
+Found:
+gave             2	   7-11  17-13
+
+
+Enter a word to search OR enter '#' to exit: people
+Found:
+people           3	   20-11  21-1  21-4
+
+
+Enter a word to search OR enter '#' to exit: us
+Found:
+us               3	   13-15  15-12  16-8
+
+
+Enter a word to search OR enter '#' to exit: vain
+Found:
+vain             1	   19-8
+
+
+Enter a word to search OR enter '#' to exit: war
+Found:
+war              2	   4-3  6-5
+
+
+Enter a word to search OR enter '#' to exit: soldier
+Not Found!
+
+
+Enter a word to search OR enter '#' to exit: #
+
+
+//----------------------- END --------------------------//
+
+This is the hash code function that is used in this program
+
+public int hashCode() {
+        int code=0;
+        for (int i=0; i<word.length(); i++) {
+            code = (code << 5) | (code >>> 27); // 5-bit cyclic shift of the running sum
+            code += (int) word.charAt(i); // add in next character
+        }
+        return code;
+    }
+
+
+This method implements a cyclic shift of a partial sum by a certain number of bits.
+For example, a 5-bit cyclic shift of the 32-bit value 00111101100101101010100010101000
+is achieved by taking the leftmost five bits and placing those on the rightmost side
+of the representation, resulting in 10110010110101010001010100000111.
+
+And this is the Compression function which uses Multiply-Add-and-Divide:
+
+private int hashValue(K key) {
+        return (int) ((Math.abs(key.hashCode()*scale+shift)%prime)%capacity);
+    }
+
+
+
+

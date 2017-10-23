@@ -1,0 +1,321 @@
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 1
+
+Enter a Decimal number: 65535
+0000 0000 0000 0000 1111 1111 1111 1111 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 1
+
+Enter a Decimal number: 1000000
+0000 0000 0000 1111 0100 0010 0100 0000 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 1
+
+Enter a Decimal number: 1234567890
+0100 1001 1001 0110 0000 0010 1101 0010 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 1
+
+Enter a Decimal number: fghjh
+**** Error: Must be a number! Special characters are also not allowed
+
+Enter again: 12345
+0000 0000 0000 0000 0011 0000 0011 1001 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 2
+
+Enter a Decimal number: 65535
+0000FFFF
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 2
+
+Enter a Decimal number: 1000000
+000F4240
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 2
+
+Enter a Decimal number: 1234567890
+499602D2
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 3
+
+Enter a Binary number: 01100101110011011010111000000101
+1707978245
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 3
+
+Enter a Binary number: 01111111111111110010000111010011
+2147426771
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 3
+
+Enter a Binary number: 00000000000000000000000000000010
+2
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 4
+
+Enter a Binary number: 01100101110011011010111000000101
+65CDAE05
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 4
+
+Enter a Binary number: 01111111111111110010000111010011
+7FFF21D3
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 4
+
+Enter a Binary number: 00101011101011010111011000111010
+2BAD763A
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 5
+
+Enter a Hexadecimal number: 12345678
+305419896
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 5
+
+Enter a Hexadecimal number: 2A3DF8A7
+708704423
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 5
+
+Enter a Hexadecimal number: 00FF00FF
+16711935
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 6
+
+Enter a Hexadecimal number: 12345678
+0001 0010 0011 0100 0101 0110 0111 1000 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 6
+
+Enter a Hexadecimal number: 2A3DF8A7
+0010 1010 0011 1101 1111 1000 1010 0111 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 6
+
+Enter a Hexadecimal number: 00FF00FF
+0000 0000 1111 1111 0000 0000 1111 1111 
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 8
+**** Error: Not a valid entry!
+
+Enter your choice again: 3
+
+Enter a Binary number: 1234
+**** Error: Must be a binary number and length <= 32 !
+
+Enter again: 1010
+10
+
+------ Main Menu ------
+
+ 1. Decimal to Binary.
+ 2. Decimal to Hexadecimal.
+ 3. Binary to Decimal.
+ 4. Binary to Hexadecimal.
+ 5. Hexadecimal to Decimal
+ 6. Hexadecimal to Binary.
+ 7. Quit.
+
+Enter your choice: 7

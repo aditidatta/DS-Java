@@ -1,0 +1,95 @@
+First Name     last Name      Gender  Tenure  Rate        Salary
+
+Howard         Starr               M       8     H         30.00
+Joan           Jacobus             F       9     W        925.00
+David          Renn                M       3     H          4.75
+Albert         Cahana              M       3     H         18.75
+Douglas        Sheer               M       5     W        250.00
+Shari          Buchman             F       9     W        325.00
+Sara           Jones               F       1     H          7.50
+Ricky          Mofsen              M       6     H         12.50
+Jean           Brennan             F       6     H          5.40
+Deborah        Starr               F       3     W       1000.00
+Jamie          Michaels            F       8     W        150.00
+
+Total Number of Employees: 11
+
+First name of all women on the payroll: 
+Joan
+Shari
+Sara
+Jean
+Deborah
+Jamie
+
+***** Employees (on Weekly payroll) with a salary more than 35,000.00 per year and have been working for at least 5 years: 
+First Name   Last Name          Salary
+Joan         Jacobus            925.00
+
+***** Giving a raise of $0.75 to all employees who are on an hourly basis and make less than $10.00 per hour and also a raise of $50.00 per week to all employees who are paid on a weekly basis and make less than $350.00 per week
+
+After the raise: 
+First Name   Last Name    Rate       Salary
+David        Renn            H         5.50
+Douglas      Sheer           W       300.00
+Shari        Buchman         W       375.00
+Sara         Jones           H         8.25
+Jean         Brennan         H         6.15
+Jamie        Michaels        W       200.00
+
+***** Sorting all the employees into alphabetical order according to last name.
+
+After Sort: 
+First Name   Last Name          Salary
+Jean         Brennan              6.15
+Shari        Buchman            375.00
+Albert       Cahana              18.75
+Joan         Jacobus            925.00
+Sara         Jones                8.25
+Jamie        Michaels           200.00
+Ricky        Mofsen              12.50
+David        Renn                 5.50
+Douglas      Sheer              300.00
+Deborah      Starr             1000.00
+Howard       Starr               30.00
+
+
+***** Hiring new employees
+
+After hire:
+
+First Name   Last Name   
+Barry        Allen       
+Jean         Brennan     
+Shari        Buchman     
+Albert       Cahana      
+Joan         Jacobus     
+Sara         Jones       
+Jamie        Michaels    
+Ricky        Mofsen      
+Nina         Pinella     
+David        Renn        
+Douglas      Sheer       
+Deborah      Starr       
+Howard       Starr       
+Lane         Wagger      
+
+
+***** Firing two employees
+
+After fire:
+
+First Name   Last Name   
+Barry        Allen       
+Shari        Buchman     
+Albert       Cahana      
+Joan         Jacobus     
+Sara         Jones       
+Jamie        Michaels    
+Nina         Pinella     
+David        Renn        
+Douglas      Sheer       
+Deborah      Starr       
+Howard       Starr       
+Lane         Wagger      
+
